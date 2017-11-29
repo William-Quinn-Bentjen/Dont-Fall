@@ -19,7 +19,9 @@ int main()
 	Game manager;
 	bool playAgain = true;
 	int winner = 0;
+	//runs the tutorial
 	winner = manager.tutorial();
+	//plays game and loops if they wish to play again
 	while (playAgain)
 	{
 		playAgain = manager.deathscreen(winner);
